@@ -114,7 +114,7 @@ def getTimeWords(t=None):
     words = []
 
     # If it's morning, we say "Good morning!"
-    # Otherwise, we just say Hiya"
+    # Otherwise, we just say "Hiya"
     if t.hour > 5 and t.hour <= 10:
         words += ['good','morning!']
     else:

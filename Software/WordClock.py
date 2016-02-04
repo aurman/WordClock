@@ -42,7 +42,7 @@ matrix = Adafruit_RGBmatrix(MATRIX_H, MATRIX_W/MATRIX_H)
 #Word Dictionary
 #Uses the Physical Grid mapping for the laser cut grid:
 # X is 1 - 16 inclusive
-# Y is 1 - 16 includive
+# Y is 1 - 16 inclusive
 # Origin is top left corner 
 m = {
     "good"      : {"row" : 1,  "start" : 1,  "length" : 4, "height" : 1},
